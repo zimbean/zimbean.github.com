@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[iOS Development Blog]]></title>
+  <title><![CDATA[I'm Zimbean]]></title>
   <link href="http://zimbean.github.io/atom.xml" rel="self"/>
   <link href="http://zimbean.github.io/"/>
-  <updated>2014-02-17T16:57:37+08:00</updated>
+  <updated>2014-02-17T22:46:42+08:00</updated>
   <id>http://zimbean.github.io/</id>
   <author>
-    <name><![CDATA[Zimbean]]></name>
+    <name><![CDATA[zimbean]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -18,7 +18,7 @@
     <link href="http://zimbean.github.io/blog/2014/02/17/hello-github-blog/"/>
     <updated>2014-02-17T13:05:24+08:00</updated>
     <id>http://zimbean.github.io/blog/2014/02/17/hello-github-blog</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>这是第一篇Github+Octopress博客</p>
 ]]></content>
   </entry>
   
