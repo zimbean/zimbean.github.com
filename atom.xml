@@ -4,7 +4,7 @@
   <title><![CDATA[I'm Zimbean]]></title>
   <link href="http://zimbean.github.io/atom.xml" rel="self"/>
   <link href="http://zimbean.github.io/"/>
-  <updated>2014-02-18T12:16:04+08:00</updated>
+  <updated>2014-02-18T12:28:30+08:00</updated>
   <id>http://zimbean.github.io/</id>
   <author>
     <name><![CDATA[zimbean]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Hello]]></title>
+    <title type="html"><![CDATA[Hello Github+Octopress Blog]]></title>
     <link href="http://zimbean.github.io/blog/2014/02/18/hello/"/>
     <updated>2014-02-18T11:25:25+08:00</updated>
     <id>http://zimbean.github.io/blog/2014/02/18/hello</id>
