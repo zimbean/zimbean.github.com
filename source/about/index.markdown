@@ -9,3 +9,4 @@ footer: true
   <p>iOS程序员，在iOS上搞应用开发2年有余</p>
   <p>爱电子产品，爱Google, 爱折腾</p> 
   <p>喜欢开源的东西, 喜欢读书和思考, 喜欢做一些geek的事情/东西</p>
+  <p>如有任何意见，请联系我! Email: zimbean@163.com</p>
