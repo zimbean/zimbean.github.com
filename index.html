@@ -7,7 +7,7 @@
 	<meta name="author" content="zimbean">
 
 	
-	<meta name="description" content="May 9th, 2014 Test May 9th, 2014 数据结构 二分查找(折半查找)算法 二分查找，也称折半查找算法，是一种在有序数组中查找某一特定元素的搜索算法。搜素过程从数组的中间元素开始，如果中间元素正好是要查找的元素，则搜素过程结束；如果某一特定元素大于或者小于中间元素， &hellip;">
+	<meta name="description" content="May 9th, 2014 KVC, KVO, 和 KVC 和 KVO Key-value coding (KVC) 和 key-value observing (KVO) 是两种能让我们驾驭 Objective-C 动态特性并简化代码的机制。在这篇文章里，我们将接触一些如何利用这些特性的例子 &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -93,8 +93,12 @@
   
 
 
-<time datetime="2014-05-09T22:43:03+08:00" data-updated="true" itemprop="datePublished">May 9<span>th</span>, 2014</time></div>
+<time datetime="2014-05-09T23:33:23+08:00" data-updated="true" itemprop="datePublished">May 9<span>th</span>, 2014</time></div>
 		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/kvc/'>KVC</a>, <a class='category' href='/blog/categories/kvo/'>KVO</a>, <a class='category' href='/blog/categories/he/'>和</a>
+
 
 </div>
 		
@@ -102,12 +106,17 @@
 		 
          
 	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2014/05/09/test/" itemprop="url">Test</a></h1>
+	<h1 class="title" itemprop="name"><a href="/blog/2014/05/09/kvc-he-kvo/" itemprop="url">KVC 和 KVO</a></h1>
 	<div class="entry-content" itemprop="articleBody">
-		<p><img src="../images/blog_images/1.jpg" alt="hello world" /></p>
+		<p>Key-value coding (KVC) 和 key-value observing (KVO) 是两种能让我们驾驭 Objective-C 动态特性并简化代码的机制。在这篇文章里，我们将接触一些如何利用这些特性的例子。</p>
 
+<h3>观察 model 对象的变化</h3>
+
+<p>在 Cocoa 的模型-视图-控制器 (Model-view-controller)架构里，控制器负责让视图和模型同步。这一共有两步：当 model 对象改变的时候，视图应该随之改变以反映模型的变化；当用户和控制器交互的时候，模型也应该做出相应的改变。</p>
+
+<p>KVO 能帮助我们让视图和模型保持同步。控制器可以观察视图依赖的属性变化。
 		
-		
+		<a href="/blog/2014/05/09/kvc-he-kvo/" class="more-link">阅读全文&rarr;</a>
 	</div>
 
 </article>

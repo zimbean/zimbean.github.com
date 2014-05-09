@@ -1,24 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[I'm Zimbean]]></title>
-  <link href="http://zimbean.github.io/atom.xml" rel="self"/>
-  <link href="http://zimbean.github.io/"/>
-  <updated>2014-05-10T00:20:19+08:00</updated>
-  <id>http://zimbean.github.io/</id>
-  <author>
-    <name><![CDATA[zimbean]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>KVC 和 KVO - I'm Zimbean</title>
+	<meta name="author" content="zimbean">
 
-  
-  <entry>
-    <title type="html"><![CDATA[KVC 和 KVO]]></title>
-    <link href="http://zimbean.github.io/blog/2014/05/09/kvc-he-kvo/"/>
-    <updated>2014-05-09T23:33:23+08:00</updated>
-    <id>http://zimbean.github.io/blog/2014/05/09/kvc-he-kvo</id>
-    <content type="html"><![CDATA[<p>Key-value coding (KVC) 和 key-value observing (KVO) 是两种能让我们驾驭 Objective-C 动态特性并简化代码的机制。在这篇文章里，我们将接触一些如何利用这些特性的例子。</p>
+	
+	<meta name="description" content="KVC 和 KVO Key-value coding (KVC) 和 key-value observing (KVO) 是两种能让我们驾驭 Objective-C 动态特性并简化代码的机制。在这篇文章里，我们将接触一些如何利用这些特性的例子。 观察 model 对象的变化 在 Cocoa &hellip;">
+	
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="I'm Zimbean" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://zimbean.github.io/blog/2014/05/09/kvc-he-kvo/">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans|Roboto:400,300' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">	
+	<script src="/javascripts/md5.js"></script>
+	<script type="text/javascript">
+	   
+	   document.write("<img src='http://www.gravatar.com/avatar/e6c7f57f23117b3634eb06a3d5ea35d7.png" + MD5("") + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+		
+	</script>
+</div>
+<h1><a href="/">I'm Zimbean</a></h1>
+<p class="subtitle">没有了观众，也就没了表演</p>
+<nav id="main-nav"><ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">关于</a></li> 
+</ul>
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+</nav>
+
+</header>				
+			</div>
+		</div>	
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+	<h1 class="title" itemprop="name">KVC 和 KVO</h1>
+	<div class="entry-content" itemprop="articleBody"><p>Key-value coding (KVC) 和 key-value observing (KVO) 是两种能让我们驾驭 Objective-C 动态特性并简化代码的机制。在这篇文章里，我们将接触一些如何利用这些特性的例子。</p>
 
 <h3>观察 model 对象的变化</h3>
 
@@ -713,105 +772,68 @@ NSLog(@"The last prime is %@", [primes.primes lastObject]);
 <p> #本文转载自<a href="http://objccn.io/issue-7-3">http://objccn.io/issue-7-3</a></p>
 
 <hr />
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[二分查找(折半查找)算法]]></title>
-    <link href="http://zimbean.github.io/blog/2014/05/09/er-fen-cha-zhao-zhe-ban-cha-zhao-suan-fa/"/>
-    <updated>2014-05-09T12:58:00+08:00</updated>
-    <id>http://zimbean.github.io/blog/2014/05/09/er-fen-cha-zhao-zhe-ban-cha-zhao-suan-fa</id>
-    <content type="html"><![CDATA[<hr />
-
-<p><strong>二分查找</strong>，也称<strong>折半查找</strong>算法，是一种在有序数组中查找某一特定元素的搜索算法。搜素过程从数组的中间元素开始，如果中间元素正好是要查找的元素，则搜素过程结束；如果某一特定元素大于或者小于中间元素，则在数组大于或小于中间元素的那一半中查找，而且跟开始一样从中间元素开始比较。如果在某一步骤数组为空，则代表找不到。这种搜索算法每一次比较都使搜索范围缩小一半。<!--more--></p>
-
-<ul>
-<li><p>复杂度分析 <br></p>
-
-<ul>
-<li><p>时间复杂度<br></p>
-
-<p>折半搜索每次把搜索区域减少一半，时间复杂度为O\left( \log n  \right)。（n代表集合中元素的个数）</p></li>
-<li><p>空间复杂度<br></p>
-
-<p>O(1)。虽以递归形式定义，但是尾递归，可改写为循环。<br></p></li>
-</ul>
-</li>
-<li><p>优点<br></p>
-
-<p>比较次数少，查找速度快，平均性能好</p></li>
-<li><p>缺点<br /></p>
-
-<p>要求待查表为有序表，且插入删除困难</p>
-
-<p>因此，折半查找方法适用于不经常变动而查找频繁的有序列表。<br ></p></li>
-</ul>
+</div>
 
 
-<p>  <p style="color:blue">代码示例<p><b/></p>
 
-<ul>
-<li><p>Objective-C 源代码   <br></p>
+</article>
 
-<pre><code>              findArray = @[@1, @2, @3, @4, @5, @6, @7,@8, @9, @10];
-              NSInteger findObject = 2;
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style addthis_16x16_style">
+	
+	<a class="addthis_button_sinaweibo"></a>
+	
+	
+	
+	
+	
+	<a class="addthis_button_compact"></a>
+	<a class="addthis_counter addthis_bubble_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid="></script>
+</div>
 
-              //数组下标
-              int mid = 0;
-              int min = 0;
-              int max = (int)(findArray.count - 1);
+	
 
-              while (min &lt;= max) {
-                  mid = (min + max)/2;
-                  NSInteger midObject = [[findArray objectAtIndex:mid] integerValue];
+<DIV style="font-size:12px;BORDER-BOTTOM: #bbbbbb 1px solid; BORDER-LEFT: #bbbbbb 1px solid; BACKGROUND: #f6f6f6; HEIGHT: 120px; BORDER-TOP: #bbbbbb 1px solid; BORDER-RIGHT: #bbbbbb 1px solid" class=oec2003right> 
 
-                  if (findObject == midObject) {
-                      NSLog(@"The index of the findObject is: %d", mid);
+<DIV style="LINE-HEIGHT: 200%; MARGIN-TOP: 10px; COLOR: #000000"> 
+作者： <A href="http://zimbean.github.io/">Zimbean</A> <BR> 
+出处： <A href="http://zimbean.github.io/">http://zimbean.github.io/</A> 
+<BR>本文基于<a target="_blank" title="Creative Commons Attribution 2.5 China Mainland License" href="http://creativecommons.org/licenses/by/2.5/cn/"> 
+署名 2.5 中国大陆</a>许可协议发布，欢迎转载，演绎或用于商业目的，但是必须保留本文的署名 
+<a href="http://oec2003.github.io/">Zimbean</a>（包含链接）。 </DIV></DIV> 
 
-                      return;
-                  }
-                 else if(findObject &gt; midObject){
-                      min = mid + 1;
-                      max = max;
-                 }
-                else{
-                     min = 0;
-                     max = max - mid - 1;
-                }
-             }
-</code></pre></li>
-<li><p>C 源代码<br ></p>
 
-<pre><code>   int findArray[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-   int findObject = 10;
 
-  //数组下标
-  int mid = 0;
-  int min = 0;
-  int max = sizeof(findArray);
 
-  while (min &lt;= max) {
-  mid = (min + max)/2;
-  int midObject = findArray[mid];
+</div>
+			</div>
+			<footer id="footer" class="inner"><p class="credit">
+  Copyright &copy; 2014 - zimbean. Powered by <a href="http://octopress.org">Octopress</a>
+</p>
 
-  if (findObject == midObject) {
-      printf("The index of the findObject is: %d", mid);
+Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a></footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
-      return;
-  }
-  else if(findObject &gt; midObject){
-      min = mid + 1;
-      max = max;
-  }
-  else{
-      min = 0;
-      max = max - mid - 1;
-  }
-}
-</code></pre></li>
-</ul>
 
-]]></content>
-  </entry>
-  
-</feed>
+
+
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans|Roboto:400,300' rel='stylesheet' type='text/css'>
+
+
+
+
+		</div>
+	</div>
+</body>
+</html>
