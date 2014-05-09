@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[I'm Zimbean]]></title>
-  <link href="http://zimbean.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 数据结构 | I'm Zimbean]]></title>
+  <link href="http://zimbean.github.io/blog/categories/shu-ju-jie-gou/atom.xml" rel="self"/>
   <link href="http://zimbean.github.io/"/>
   <updated>2014-05-09T15:34:16+08:00</updated>
   <id>http://zimbean.github.io/</id>
@@ -22,15 +22,6 @@
 
 <p><strong><em>二分查找</em></strong>又称<strong>折半查找</strong>，优点是比较次数少，查找速度快，平均性能好；其缺点是要求待查表为有序表，且插入删除困难。因此，折半查找方法适用于不经常变动而查找频繁的有序列表。首先，假设表中元素是按升序排列，将表中间位置记录的关键字与查找关键字比较，如果两者相等，则查找成功；否则利用中间位置记录将表分成前、后两个子表，如果中间位置记录的关键字大于查找关键字，则进一步查找前一子表，否则进一步查找后一子表。重复以上过程，直到找到满足条件的记录，使查找成功，或直到子表不存在为止，此时查找不成功。
 表，且插入删除困难。因此，折半查找方法适用于不经常变动而查找频繁的有序列表。首先，假设表中元素是按升序排列，将表中间位置记录的关键字与查找关键字比较，如果两者相等，则查找成功；否则利用中间位置记录将表分成前、后两个子表，如果中间位置记录的关键字大于查找关键字，则进一步查找前一子表，否则进一步查找后一子表。重复以上过程，直到找到满足条件的记录，使查找成功，或直到子表不存在为止，此时查找不成功。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello Github+Octopress Blog]]></title>
-    <link href="http://zimbean.github.io/blog/2014/02/18/hello/"/>
-    <updated>2014-02-18T11:25:25+08:00</updated>
-    <id>http://zimbean.github.io/blog/2014/02/18/hello</id>
-    <content type="html"><![CDATA[<p>  之前看一些大牛的博客样式非常漂亮，所以花了将近2天时间，根据教程，终于把博客搭建好了。主要是运用Github+Octopress搭建博客。</p>
 ]]></content>
   </entry>
   
