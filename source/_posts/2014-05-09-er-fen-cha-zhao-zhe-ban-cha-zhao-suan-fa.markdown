@@ -30,10 +30,68 @@ categories: 数据结构
   
   <p style="color:blue">代码示例<p><b/>
 
-* C 源代码   <br>
+* Objective-C 源代码   <br>		
+					
+					findArray = @[@1, @2, @3, @4, @5, @6, @7,@8, @9, @10];
+                    NSInteger findObject = 2;
+                    
+                    //数组下标
+                    int mid = 0;
+                    int min = 0;
+                    int max = (int)(findArray.count - 1);
+                    
+                    while (min <= max) {
+                        mid = (min + max)/2;
+                        NSInteger midObject = [[findArray objectAtIndex:mid] integerValue];
+        
+                        if (findObject == midObject) {
+                            NSLog(@"The index of the findObject is: %d", mid);
+            
+                            return;
+                        }
+                       else if(findObject > midObject){
+                            min = mid + 1;
+                            max = max;
+                       }
+                      else{
+                           min = 0;
+                           max = max - mid - 1;
+                      }
+                   }
 
+                    
+* C 源代码<br >
+ 							
 
-* Objective-C 源代码<br >
+		 int findArray[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    	 int findObject = 10;
 
-  
-   ![替代文本](../images/BinarySearch_oc.png "可选标题")
+    	//数组下标
+    	int mid = 0;
+     	int min = 0;
+    	int max = sizeof(findArray);
+    
+   	    while (min <= max) {
+        mid = (min + max)/2;
+        int midObject = findArray[mid];
+        
+        if (findObject == midObject) {
+            printf("The index of the findObject is: %d", mid);
+            
+            return;
+        }
+        else if(findObject > midObject){
+            min = mid + 1;
+            max = max;
+        }
+        else{
+            min = 0;
+            max = max - mid - 1;
+        }
+      }
+
+   
+   
+   
+   
+   
