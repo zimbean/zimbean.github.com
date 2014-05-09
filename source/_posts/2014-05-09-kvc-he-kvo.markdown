@@ -3,7 +3,7 @@ layout: post
 title: "KVC 和 KVO"
 date: 2014-05-09 23:33:23 +0800
 comments: true
-categories: KVC 和 KVO
+categories:
 ---
 
 Key-value coding (KVC) 和 key-value observing (KVO) 是两种能让我们驾驭 Objective-C 动态特性并简化代码的机制。在这篇文章里，我们将接触一些如何利用这些特性的例子。
