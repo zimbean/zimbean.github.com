@@ -4,7 +4,7 @@
   <title><![CDATA[I'm Zimbean]]></title>
   <link href="http://zimbean.github.io/atom.xml" rel="self"/>
   <link href="http://zimbean.github.io/"/>
-  <updated>2014-05-09T20:21:31+08:00</updated>
+  <updated>2014-05-09T21:30:44+08:00</updated>
   <id>http://zimbean.github.io/</id>
   <author>
     <name><![CDATA[zimbean]]></name>
@@ -49,8 +49,9 @@
 
 <ul>
 <li><p>C 源代码   <br></p></li>
-<li><p>Objective-C 源代码<br >
-<img src="./BinarySearch_oc.png" title="二分查找-Objective-C实现" alt="二分查找" /></p></li>
+<li><p>Objective-C 源代码<br ></p>
+
+<p> <img src="../images/BinarySearch_oc.png" title="可选标题" alt="替代文本" /></p></li>
 </ul>
 
 ]]></content>
