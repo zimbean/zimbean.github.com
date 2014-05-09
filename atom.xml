@@ -4,7 +4,7 @@
   <title><![CDATA[I'm Zimbean]]></title>
   <link href="http://zimbean.github.io/atom.xml" rel="self"/>
   <link href="http://zimbean.github.io/"/>
-  <updated>2014-05-09T22:21:28+08:00</updated>
+  <updated>2014-05-09T22:26:53+08:00</updated>
   <id>http://zimbean.github.io/</id>
   <author>
     <name><![CDATA[zimbean]]></name>
@@ -108,15 +108,6 @@
 </code></pre></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello Github+Octopress Blog]]></title>
-    <link href="http://zimbean.github.io/blog/2014/02/18/hello/"/>
-    <updated>2014-02-18T11:25:25+08:00</updated>
-    <id>http://zimbean.github.io/blog/2014/02/18/hello</id>
-    <content type="html"><![CDATA[<p>  之前看一些大牛的博客样式非常漂亮，所以花了将近2天时间，根据教程，终于把博客搭建好了。主要是运用Github+Octopress搭建博客。</p>
 ]]></content>
   </entry>
   
