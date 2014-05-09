@@ -4,7 +4,7 @@
   <title><![CDATA[I'm Zimbean]]></title>
   <link href="http://zimbean.github.io/atom.xml" rel="self"/>
   <link href="http://zimbean.github.io/"/>
-  <updated>2014-05-09T21:52:37+08:00</updated>
+  <updated>2014-05-09T22:15:55+08:00</updated>
   <id>http://zimbean.github.io/</id>
   <author>
     <name><![CDATA[zimbean]]></name>
@@ -48,10 +48,64 @@
 <p>  <p style="color:blue">代码示例<p><b/></p>
 
 <ul>
-<li><p>C 源代码   <br></p></li>
-<li><p>Objective-C 源代码<br ></p>
+<li><p>Objective-C 源代码   <br></p>
 
-<p> <img src="../images/BinarySearch_oc.png" title="可选标题" alt="替代文本" /></p></li>
+<pre><code>              findArray = @[@1, @2, @3, @4, @5, @6, @7,@8, @9, @10];
+              NSInteger findObject = 2;
+
+              //数组下标
+              int mid = 0;
+              int min = 0;
+              int max = (int)(findArray.count - 1);
+
+              while (min &lt;= max) {
+                  mid = (min + max)/2;
+                  NSInteger midObject = [[findArray objectAtIndex:mid] integerValue];
+
+                  if (findObject == midObject) {
+                      NSLog(@"The index of the findObject is: %d", mid);
+
+                      return;
+                  }
+                 else if(findObject &gt; midObject){
+                      min = mid + 1;
+                      max = max;
+                 }
+                else{
+                     min = 0;
+                     max = max - mid - 1;
+                }
+             }
+</code></pre></li>
+<li><p>C 源代码<br ></p>
+
+<pre><code>   int findArray[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+   int findObject = 10;
+
+  //数组下标
+  int mid = 0;
+  int min = 0;
+  int max = sizeof(findArray);
+
+  while (min &lt;= max) {
+  mid = (min + max)/2;
+  int midObject = findArray[mid];
+
+  if (findObject == midObject) {
+      printf("The index of the findObject is: %d", mid);
+
+      return;
+  }
+  else if(findObject &gt; midObject){
+      min = mid + 1;
+      max = max;
+  }
+  else{
+      min = 0;
+      max = max - mid - 1;
+  }
+}
+</code></pre></li>
 </ul>
 
 ]]></content>
